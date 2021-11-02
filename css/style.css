@@ -1,0 +1,17 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form__input{
+    width:50%;
+}
+.form__submitbutton{
+    margin-top: 1rem;
+    width: 50%;
+}
+.response__correct{
+    color: green;
+}
+.response__error{
+    color: red;
+}
