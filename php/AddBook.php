@@ -12,9 +12,13 @@ if (isset($_POST['userName']) && isset($_POST['comentarioInput'])) {
     $coments->name=$_POST['userName'];
 
     if(isset($_POST['emailInput'])){
-        $coments->email=$_POST['emailInput'];
+        if($_POST['publicInput']=='publica'){
+            $coments->email=$_POST['emailInput'];
+        }else{
+            $coments->email="Anonimo";
+        }
     }else{
-        $coments->email="empty-email@not-email.not";
+        $coments->email="anonimo";
     }
 
     $coments->comentary=$coment;
