@@ -1,0 +1,13 @@
+.header__all{
+    padding-bottom: 3rem;
+}
+.header__container{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin: auto;
+}

@@ -1,13 +1,8 @@
-.form{
-    display: flex;
-    flex-direction: column;
-}
-.form__input{
-    width:50%;
-}
-.form__submitbutton{
-    margin-top: 1rem;
-    width: 50%;
+body{
+    background-color: #e5e5f7;
+    opacity: 0.93;
+    background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 32.5px 32.5px, linear-gradient(#a4a6be 2.6px, transparent 2.6px) 0 -1.3px, linear-gradient(90deg, #a4a6be 2.6px, #e5e5f7 2.6px) -1.3px 0;
+    background-size: 65px 65px, 65px 65px, 32.5px 32.5px, 32.5px 32.5px;
 }
 .response__correct{
     color: green;

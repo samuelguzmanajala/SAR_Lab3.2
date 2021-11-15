@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(214, 214, 255);
+}
+.table__container{
+    background-color: rgb(236, 236, 236);
+    padding: .3rem;
+}
+.table,th{
+    margin: 1rem;
+    border: 1px black solid;
+    padding: .5rem;
+}
+th{
+    background-color: greenyellow;
+}
